@@ -1,0 +1,16 @@
+{
+  "name": "citysculpt",
+  "version": "1.0.0",
+  "description": "A world-building sandbox environment created using Three.js",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --host",
+    "start": "open http://localhost:3000 && node main.js"
+  },
+
+  "dependencies": {
+    "postprocessing": "^6.37.2",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {}
+}
