@@ -1,0 +1,55 @@
+// This file contains rules that govern the size and colocation of biome tiles. 
+
+---------------------------------------
+FREQUENT ADJACENCIES
+---------------------------------------
+"grass" and "prairie" frequently border one another
+"forest" and "mountain" frequently border one another
+"rainforest" and "mountain" frequently border one another
+"rainforest" and "ocean" frequently border one another
+"desert" and "mountain" frequently border one another
+"cliff" and "ocean" frequently border one another
+"lake" and "mountain" frequently border one another
+"river" and "cliff" frequently border one another
+"forest" and "river" frequently border one another
+"rainforest" and "river" frequently border one another
+"city" and "prairie" frequently border one another
+"city" and "ocean" frequently border one another
+"city" and "lake" frequently border one another
+"city" and "river" frequently border one another
+
+---------------------------------------
+COMMON ADJACENCIES
+---------------------------------------
+"grass" and "forest" commonly border one another
+"grass" and "mountain" commonly border one another
+"grass" and "ocean" commonly border one another
+"forest" and "rainforest" commonly border one another
+"forest" and "ocean" commonly border one another
+"lake" and "grass" commonly border one another
+"lake" and "rainforest" commonly border one another
+"lake" and "prairie" commonly border one another
+"river" and "grass" commonly border one another
+"river" and "desert" commonly border one another
+"river" and "prairie" commonly border one another
+"city" and "grass" commonly border one another
+"city" and "forest" commonly border one another
+"city" and "rainforest" commonly border one another
+"city" and "desert" commonly border one another
+"city" and "mountain" commonly border one another
+"mountain" and "cliff" commonly border one another
+
+---------------------------------------
+SELDOM ADJACENCIES
+---------------------------------------
+"grass" and "rainforest" seldom border one another
+"grass" and "desert" seldom border one another
+"forest" and "desert" seldom border one another
+"forest" and "prairie" seldom border one another
+"rainforest" and "desert" seldom border one another
+"rainforest" and "prairie" seldom border one another
+"desert" and "prairie" seldom border one another
+"prairie" and "ocean" seldom border one another
+"mountain" and "prairie" seldom border one another
+"lake" and "desert" seldom border one another
+"lake" and "ocean" seldom border one another

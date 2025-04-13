@@ -1,5 +1,5 @@
 {
-  "name": "citysculpt",
+  "name": "ecosculpt",
   "version": "1.0.0",
   "description": "A world-building sandbox environment created using Three.js",
   "main": "main.js",
